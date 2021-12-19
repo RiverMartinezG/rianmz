@@ -1,0 +1,7 @@
+{
+  "name": "rianmz",
+  "version": "1.0.0",
+  "bin": {
+    "rianmz": "index.js"
+  }
+}
