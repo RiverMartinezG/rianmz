@@ -1,6 +1,6 @@
 {
   "name": "rianmz",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get to know River Martínez via `npx rianmz`",
   "bin": {
     "rianmz": "index.js"
