@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
+const log = console.log;
 
 welcome({
     title: pkgJSON.name,
@@ -13,10 +15,9 @@ welcome({
     clear: true
 })
 
-console.log(`
-River Martinez - Mid Wordpress Developer
+log(`${chalk.bgBlue.bold(` River Martinez `)} - Mid Wordpress Developer
 
-rianmz cli package - Awesome cli tools for wordpresss.
+${chalk.italic('rianmz cli package - Awesome cli tools for wordpresss.')}
 
-🐦 Twitter: https://twitter.com/rianmz
+🐦 ${chalk.hex('#1da1f2').bold('Twitter')}: ${chalk.dim('https://twitter.com/rianmz')}
 `);
