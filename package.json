@@ -12,5 +12,13 @@
     "river martinez",
     "river",
     "rianmz"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "RiverMartinezG/rianmz",
+  "author": {
+    "name": "River Martinez",
+    "email": "rianmartinez@gmail.com",
+    "url": "https://twitter.com/rianmz"
+  }
 }
